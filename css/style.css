@@ -1,0 +1,29 @@
+body{
+  background-color: #6c6b64;
+}
+
+a{
+  text-decoration:none;
+}
+
+#mainWrapper{
+  background-color: #f3f2ed;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  width: 1000px;
+}
+
+#imgHere{
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.thumbImg{
+  border: 5px solid white;
+}
+
+.thumbImg:hover{
+   border-color: red;
+}
