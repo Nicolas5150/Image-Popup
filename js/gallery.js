@@ -69,9 +69,9 @@ function createImage(imgRequested){
   img.setAttribute("alt","Aircraft Picture");
   img.setAttribute("width", "auto");
   img.setAttribute("height", "auto");
+  img.src = imgRequested;
   var pic = document.getElementById('imgHere');
   pic.appendChild(img);
-  img.src = imgRequested;
 }
 
 // Create the caption requested based off of index pos of images array passed in
